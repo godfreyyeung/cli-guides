@@ -159,17 +159,14 @@ The best way to learn how to use CSS preprocessors in your addon is to consult t
 
 There are two main types of JavaScript functionality that an addon can provide:
 
-1. API methods that developers can use after importing your addon
-2. Interactive features that are part of UI components.
+1. Interactive features that are part of UI components.
+2. API methods that developers can use after importing your addon
 
-We'll cover UI use cases first.
+## Writing an addon to provide UI features
 
-Interactivity in an addon can be handled the same way that it is done for an Ember app's component. Every addon component template has a corresponding JavaScript file to go with it. For example, an addon can have its own actions, computed properties, and imported dependencies. Developers using the addon can pass in their own actions and attributes.
+Providing interactive features through an addon can be done in the same way as writing an Ember app component. Every addon component template has a corresponding JavaScript file to go with it. For example, an addon can have its own actions, computed properties, and imported dependencies. Developers using the addon can pass in their own actions and attributes.
 
 For more information about building interactivity for your addon, reference the [Ember Guides components section](https://guides.emberjs.com/release/components/defining-a-component/). Remember to test as you work!
-
-### Providing multiple templates in one addon
-
 
 ## Writing a JavaScript utilities addon
 
